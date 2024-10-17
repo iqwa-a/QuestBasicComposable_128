@@ -63,7 +63,12 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier.size(100.dp)
 
-
+        )
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 20.sp,
+            )
         )
 
     }
