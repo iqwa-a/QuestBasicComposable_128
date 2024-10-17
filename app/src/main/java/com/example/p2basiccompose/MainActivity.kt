@@ -72,6 +72,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Ikhwa Arif Ramdhani",
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.Red
+            )
         )
 
 
