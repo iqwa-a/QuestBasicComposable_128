@@ -77,6 +77,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 color = Color.Red
             )
         )
+        Text(
+            text = "20220140128",
+        )
 
 
     }
