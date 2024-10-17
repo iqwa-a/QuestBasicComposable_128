@@ -79,6 +79,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
         Text(
             text = "20220140128",
+            style = TextStyle(
+                fontSize = 40.sp,
+            )
         )
 
 
