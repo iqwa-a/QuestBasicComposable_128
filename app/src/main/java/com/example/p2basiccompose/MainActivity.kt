@@ -51,7 +51,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize()
     ){
 
-        Text(text = "Login",)
+        Text(text = "Login",style = TextStyle(
+            fontSize = 70.sp,
+            fontWeight = FontWeight.Bold
+        ))
     }
 }
 
