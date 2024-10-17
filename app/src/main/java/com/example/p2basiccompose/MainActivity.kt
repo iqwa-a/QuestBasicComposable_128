@@ -83,6 +83,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontSize = 40.sp,
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.iqwa),
+        )
 
 
     }
