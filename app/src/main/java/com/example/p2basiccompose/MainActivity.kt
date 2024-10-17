@@ -58,6 +58,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(
             text = "ini Adalah Halaman LOGIN Real Madrid C.F.",
         )
+        Image(
+            painter = painterResource(id = R.drawable.avor1i7ke),
+
+        )
 
     }
 }
