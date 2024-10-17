@@ -70,6 +70,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 fontSize = 20.sp,
             )
         )
+        Text(
+            text = "Ikhwa Arif Ramdhani",
+        )
+
 
     }
 }
