@@ -44,6 +44,12 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BasicLayout(modifier: Modifier = Modifier) {
+    Column (
+        horizontalAlignment = Alignment.CenterHorizontally,
+        //membuat Text Login menjadi horisontal
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize()
+    )
 }
 
 
