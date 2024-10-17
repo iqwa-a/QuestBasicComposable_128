@@ -49,7 +49,10 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         //membuat Text Login menjadi horisontal
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    )
+    ){
+
+        Text(text = "Login",)
+    }
 }
 
 
